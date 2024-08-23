@@ -37,7 +37,7 @@ bot.onText(/\/start/, async (msg: Message) => {
   
     // Send a welcome message with a link to the game
     const reply = `Welcome to TapMe, ${userName}! Click the link below to start playing:`;
-    const gameLink = 'https://your-web-app-url.com'; // Replace with your deployed web app URL
+    const gameLink = 'https://tapme-telegram.onrender.com'; // Replace with your deployed web app URL
   
     bot.sendMessage(chatId, `${reply}\n${gameLink}`);
   });
